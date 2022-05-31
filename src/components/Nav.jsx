@@ -99,9 +99,9 @@ function Nav() {
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link to="/cookies" className="dropdown-item" href="#">
                     นโยบายการใช้คุกกี้
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
@@ -117,7 +117,7 @@ function Nav() {
               <a className="nav-link">แจ้งร้องเรียน</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link">ติดต่อเรา</a>
+              <Link to ="/contact" className="nav-link">ติดต่อเรา</Link>
             </li>
           </ul>
         </div>
