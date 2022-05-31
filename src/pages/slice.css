@@ -1,0 +1,7 @@
+.carousel-item img {
+    width:65%;
+    justify-self: center;
+    margin:auto;
+    padding:2rem;
+    object-fit: cover center;
+}
