@@ -3,6 +3,7 @@ import SecurityImg from '../images/security_image.png'
 import Slide1 from '../images/pdpa_slide.png'
 import Slide from './Slide';
 
+
 function Home() {
   return (
     <>
@@ -39,6 +40,7 @@ function Home() {
           </div>
         </div>
       </div>
+      
     </>
   );
 }
