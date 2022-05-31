@@ -4,3 +4,13 @@
     top:0px;
     z-index: 1000;
 }
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+    background-color: #001D6E;
+    
+}
+
+.dropdown-menu li a {
+    color: #fff;
+}

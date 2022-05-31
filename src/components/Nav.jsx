@@ -23,7 +23,12 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link to ="/" className="nav-link active" aria-current="page" href="#">
+              <Link
+                to="/"
+                className="nav-link active"
+                aria-current="page"
+                href="#"
+              >
                 <i className="fa fa-home"></i> หน้าแรก
               </Link>
             </li>
@@ -42,7 +47,7 @@ function Nav() {
 
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <Link to="/employee"className="dropdown-item" href="#">
+                  <Link to="/employee" className="dropdown-item" href="#">
                     คณะทำงาน
                   </Link>
                 </li>
@@ -70,12 +75,21 @@ function Nav() {
 
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <Link to ="/T_0052" className="dropdown-item" href="../pdf/T_0052.pdf">
+                  <a
+                    className="dropdown-item"
+                    href="http://www.ratchakitcha.soc.go.th/DATA/PDF/2562/A/069/T_0052.PDF"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.sepo.go.th/tinymce/plugins/filemanager/thumbs//161263-2.pdf"
+                    target="_blank" rel="noopener noreferrer"
+                  >
                     นโยบายธรรมาภิบาลข้อมูล
                   </a>
                 </li>
