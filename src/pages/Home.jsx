@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <div className="row">
-       <Slide />
+        <Slide />
       </div>
       <div className="container d-flex text-center justify-content-center align-items-center">
         <div className="row">
@@ -25,14 +25,14 @@ function Home() {
             <hr />
           </div>
           <div className="row">
-            <div className="col" style={{lineHeight:'45px'}}>
+            <div className="col" style={{ lineHeight: "45px" }}>
               <ul>
                 <li className="list-unstyled">
-                  <i className="fa fa-check-circle"></i>{" "}
+                  <i className="fa fa-check-circle text-success" style={{fontSize: "25px"}}></i>{" "}
                   เพื่อไม่ให้ถูกละเมิดสิทธิความเป็นส่วนตัว
                 </li>
                 <li className="list-unstyled">
-                  <i className="fa fa-check-circle"></i>{" "}
+                  <i className="fa fa-check-circle text-success" style={{fontSize: "25px"}}></i>{" "}
                   เพื่อให้มีมาตรการเยียวยาเจ้าของข้อมูลในกรณีที่ถูกละเมิดข้อมูลส่วนบุคคล
                 </li>
               </ul>
@@ -40,7 +40,6 @@ function Home() {
           </div>
         </div>
       </div>
-      
     </>
   );
 }

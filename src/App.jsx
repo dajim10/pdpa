@@ -20,7 +20,7 @@ function App() {
       <Nav />
       <CookieConsent
         debug={true}
-        style={{ background: "#001D6E" }}
+        style={{ background: "#001D6E" ,textAlign: "center" }}
         buttonText="ยอมรับ"
         buttonStyle={{fontSize:'14px',background:'#000',color:'#fff'}}
       >

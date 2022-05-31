@@ -13,13 +13,25 @@ function Slide() {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Slide1} className="d-block" alt="PDPA Slide 1" />
+            <img
+              src={Slide1}
+              className="d-block rounded shadow mt-3 mb-3"
+              alt="PDPA Slide 1"
+            />
           </div>
           <div className="carousel-item">
-            <img src={Slide2} className="d-block" alt="PDPA Slide 2" />
+            <img
+              src={Slide2}
+              className="d-block rounded shadow mt-3 mb-3"
+              alt="PDPA Slide 2"
+            />
           </div>
           <div className="carousel-item">
-            <img src={Slide3} className="d-block " alt="PDPA Slice 3" />
+            <img
+              src={Slide3}
+              className="d-block rounded shadow mt-3 mb-3"
+              alt="PDPA Slice 3"
+            />
           </div>
         </div>
         <button
