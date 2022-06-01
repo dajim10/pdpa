@@ -19,13 +19,13 @@
 }
 
 .carousel-control-next-icon:after {
-    content: '⏭️';
-    font-size: 55px;
-    /* color: red; */
+    content: '>';
+    font-size: 30px;
+    color: rgb(97, 96, 96);
 }
 
 .carousel-control-prev-icon:after {
-    content: '⏮️';
-    font-size: 55px;
-    /* color: red; */
+    content: '<';
+    font-size: 30px;
+    color: rgb(97, 96, 96);
 }
