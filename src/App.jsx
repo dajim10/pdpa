@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Employee from "./pages/Employee";
 import T_0052 from "./pdf/T_0052.pdf";
+import pdpa_2562 from "./pdf/pdpa_2562.pdf"
 import CookieConsent from "react-cookie-consent";
 import Cookies from './pages/Cookies'
 import Contact from "./pages/Contact"
@@ -32,6 +33,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/employee" element={<Employee />} />
         <Route path="/T_0052" element={<T_0052 />} />
+        <Route path="/pdpa_2562" element={<pdpa_2562 />}/>
         <Route path="/cookies" element={<Cookies />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

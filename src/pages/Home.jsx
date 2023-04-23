@@ -1,14 +1,28 @@
 import React from 'react'
 import SecurityImg from '../images/security_image.png'
 import Slide1 from '../images/pdpa_slide.png'
-import Slide from './Slide';
-
+import PDPA_IMG from '../images/Acting1.png'
+import Cyber_img from '../images/Acting2.png'
+import PDPA_PDF from '../pdf/appointmentPDPA_2.pdf'
 
 function Home() {
   return (
     <>
+      <div className="container text-center mt-5">
+
       <div className="row">
-        <Slide />
+          <div className="col-lg-6 col-md mb-5">
+
+            <a href={PDPA_PDF} target='_blank'>
+              <img src={PDPA_IMG} alt="pdpa image" className='img-fluid rounded shadow' style={{height:'500px'}} />
+           </a>
+
+          </div>
+          <div className="col-lg-6 col-md mb-5">
+            <img src={Cyber_img} alt="cyber security" className='img-fluid rounded shadow' style={{height:'500px'}}/>
+          </div>
+        {/* <Slide /> */}
+      </div>
       </div>
       <div className="container d-flex text-center justify-content-center align-items-center">
         <div className="row">

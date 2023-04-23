@@ -1,6 +1,8 @@
 import React from "react";
 import './nav.css'
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
+import Pdf from '../pdf/pdpa_2562.pdf'
+import AppointMent from '../pdf/appointmentPDPA.pdf'
 
 function Nav() {
   return (
@@ -33,7 +35,7 @@ function Nav() {
               </Link>
             </li>
 
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -60,7 +62,7 @@ function Nav() {
             </li>
             <li className="nav-item">
               <a className="nav-link">ประกาศเกี่ยวกับความเป็นส่วนตัว</a>
-            </li>
+            </li> */}
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -75,6 +77,9 @@ function Nav() {
 
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
+                  <a href={AppointMent} target="_blank" className="dropdown-item">คำสั่งแต่งตั้งคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล</a>
+                </li>
+                {/* <li>
                   <a
                     className="dropdown-item"
                     href="http://www.ratchakitcha.soc.go.th/DATA/PDF/2562/A/069/T_0052.PDF"
@@ -83,8 +88,8 @@ function Nav() {
                   >
                     พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a
                     className="dropdown-item"
                     href="https://www.sepo.go.th/tinymce/plugins/filemanager/thumbs//161263-2.pdf"
@@ -92,30 +97,30 @@ function Nav() {
                   >
                     นโยบายธรรมาภิบาลข้อมูล
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a className="dropdown-item" href="#">
                     นโยบายการคุ้มครองข้อมูลส่วนบุคคล
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/cookies" className="dropdown-item" href="#">
                     นโยบายการใช้คุกกี้
                   </Link>
-                </li>
+                </li> */}
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Template เอกสาร PDPA
+                  <a href= {Pdf} target = "_blank"  className="dropdown-item">
+                  พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล
                   </a>
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link">การขอใช้สิทธิ์ข้อมูลส่วนบุคคล</a>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <a className="nav-link">แจ้งร้องเรียน</a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to ="/contact" className="nav-link">ติดต่อเรา</Link>
             </li>
