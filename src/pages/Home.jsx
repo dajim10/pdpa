@@ -1,9 +1,8 @@
 import React from 'react'
-import SecurityImg from '../images/security_image.png'
-import Slide1 from '../images/pdpa_slide.png'
 import PDPA_IMG from '../images/Acting1.png'
 import Cyber_img from '../images/Acting2.png'
-import PDPA_PDF from '../pdf/appointmentPDPA_2.pdf'
+
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -13,9 +12,9 @@ function Home() {
       <div className="row">
           <div className="col-lg-6 col-md mb-5">
 
-            <a href={PDPA_PDF} target='_blank'>
+            <Link to = '/pdpa'>
               <img src={PDPA_IMG} alt="pdpa image" className='img-fluid rounded shadow' style={{height:'500px'}} />
-           </a>
+           </Link>
 
           </div>
           <div className="col-lg-6 col-md mb-5">

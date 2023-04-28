@@ -11,6 +11,7 @@ import CookieConsent from "react-cookie-consent";
 import Cookies from './pages/Cookies'
 import Contact from "./pages/Contact"
 import Footer from './pages/Footer'
+import Pdpa from "./pages/pdpa";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,6 +30,7 @@ function App() {
         ท่านสามารถศึกษารายละเอียดการใช้คุกกี้ได้ที่{" "}
         <Link to="/cookies" className="text-warning nav-link">“นโยบายการใช้คุกกี้”</Link>
       </CookieConsent>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/employee" element={<Employee />} />
@@ -36,6 +38,8 @@ function App() {
         <Route path="/pdpa_2562" element={<pdpa_2562 />}/>
         <Route path="/cookies" element={<Cookies />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/pdpa" element={<Pdpa />} />
+
       </Routes>
       <Footer />
     </Router>
