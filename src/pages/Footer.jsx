@@ -8,7 +8,7 @@ function Footer() {
         <div className="row">
           <div className="col-2"></div>
           <div className="col-lg-4 col-sm text-center mb-3">
-            <img src={Logo} alt="logo ruts" className="mb-2 rounded shadow" />
+            <img src={Logo} alt="logo ruts" className="img-fluid mb-2 rounded shadow" />
             <h5>มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย</h5>
             <ul className="nav flex-column">
               <li className="list-unstyled">ที่ตั้ง : เลขที่ 1</li>

@@ -7,7 +7,9 @@
   text-align: center;
 }
 
-
+img:hover {
+  cursor: pointer;
+}
 .ruts-bg-color {
   background-color: #001b54;
 }
