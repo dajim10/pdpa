@@ -7,10 +7,12 @@
   text-align: center;
 }
 
-.close {
-  color: #fff; 
-  opacity: 1;
+.modal-header {
+  background-color: #FDB714;
+  color:#fff;
 }
+
+
 
 img:hover {
   cursor: pointer;
