@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoRuts from '../images/logo-RUTS.png'
+import LogoRuts from '../images/Logo-RUTS.png'
 function Contact() {
   return (
     <>
