@@ -1,5 +1,4 @@
 import React from "react";
-import './footer.css'
 import Logo from '../images/Logo-RUTS.png'
 function Footer() {
   return (
