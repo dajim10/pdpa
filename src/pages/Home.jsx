@@ -26,8 +26,8 @@ const handleShow = () => setShow(true);
        aria-labelledby="contained-modal-title-vcenter"
        centered
       >
-        <Modal.Header closeButton>
-          <Modal.Title className='text-center'>Cyber Security</Modal.Title>
+        <Modal.Header closeButton style={{backgroundColor:'#00154b',color:'#fff'}}>
+          <Modal.Title className='text-center'>Personal Data Protection Act (PDPA)</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <ul className="list-group">
