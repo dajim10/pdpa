@@ -3,6 +3,8 @@ import './nav.css'
 import { Link } from "react-router-dom"
 import Pdf from '../pdf/pdpa_2562.pdf'
 import AppointMent from '../pdf/appointmentPDPA.pdf'
+import cyber15062023 from '../pdf/cyberSecAnnouce15062023.pdf'
+import pdo from '../pdf/pdoannouce15062023.pdf'
 // import Header from "./Header";
 
 function Nav() {
@@ -59,6 +61,12 @@ function Nav() {
                   <a href= {Pdf} target = "_blank"  className="dropdown-item">
                   พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล
                   </a>
+                </li>
+                <li>
+                  <a href={pdo} target= "_blank" className="dropdown-item">คำสั่งแต่งตั้งเจ้าหน้าที่คุ้มครองข้อมูลส่วนบุคคล DPO</a>
+                </li>
+                <li>
+                  <a href={cyber15062023} target= "_blank" className="dropdown-item">คำสั่งและแบบฟอร์มผู้รับผิดชอบด้านการรักษาความมั่นคงปลอดภัยไซเบอร์</a>
                 </li>
               </ul>
             </li>
