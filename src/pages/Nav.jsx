@@ -5,11 +5,12 @@ import Pdf from '../pdf/pdpa_2562.pdf'
 import AppointMent from '../pdf/appointmentPDPA.pdf'
 import cyber15062023 from '../pdf/cyberSecAnnouce15062023.pdf'
 import pdo from '../pdf/pdoannouce15062023.pdf'
+import signed from '../pdf/signed.pdf'
 // import Header from "./Header";
 
 function Nav() {
   return (
-    
+
     <nav className="navbar navbar-expand-lg navbar-dark ruts-bg-color">
       <div className="container">
         {/* <a className="navbar-brand" href="#">
@@ -39,7 +40,7 @@ function Nav() {
               </Link>
             </li>
 
-           
+
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -54,30 +55,35 @@ function Nav() {
 
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a href={AppointMent} target="_blank" className="dropdown-item">คำสั่งแต่งตั้งคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล</a>
-                </li>
-               
-                <li>
-                  <a href= {Pdf} target = "_blank"  className="dropdown-item">
-                  พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล
+                  <a href={signed} target="_blank" className="dropdown-item">
+                    แนวนโยบายและแนวปฏิบัติในการรักษาความม่ันคงปลอดภัยด้านสารสนเทศ
                   </a>
                 </li>
                 <li>
-                  <a href={pdo} target= "_blank" className="dropdown-item">คำสั่งแต่งตั้งเจ้าหน้าที่คุ้มครองข้อมูลส่วนบุคคล DPO</a>
+                  <a href={AppointMent} target="_blank" className="dropdown-item">คำสั่งแต่งตั้งคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล</a>
+                </li>
+
+                <li>
+                  <a href={Pdf} target="_blank" className="dropdown-item">
+                    พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล
+                  </a>
                 </li>
                 <li>
-                  <a href={cyber15062023} target= "_blank" className="dropdown-item">คำสั่งและแบบฟอร์มผู้รับผิดชอบด้านการรักษาความมั่นคงปลอดภัยไซเบอร์</a>
+                  <a href={pdo} target="_blank" className="dropdown-item">คำสั่งแต่งตั้งเจ้าหน้าที่คุ้มครองข้อมูลส่วนบุคคล DPO</a>
+                </li>
+                <li>
+                  <a href={cyber15062023} target="_blank" className="dropdown-item">คำสั่งและแบบฟอร์มผู้รับผิดชอบด้านการรักษาความมั่นคงปลอดภัยไซเบอร์</a>
                 </li>
               </ul>
             </li>
-           
+
             <li className="nav-item">
-              <Link to ="/contact" className="nav-link">ติดต่อเรา</Link>
+              <Link to="/contact" className="nav-link">ติดต่อเรา</Link>
             </li>
           </ul>
         </div>
       </div>
-      </nav>
+    </nav>
 
   );
 }
